@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+.music-list {
+  margin-top: 45px;
+  margin-left: 40px;
+}
+
+.music-list article:nth-child(n) {
+  margin-bottom: 60px;
+  display: flex;
+}
+
+.music-list article:nth-child(n) div:first-child {
+  width: 60px;
+  height: 60px;
+  border: solid 3px black;
+  border-radius: 20%;
+}
+
+.music-list article:nth-child(1) div:first-child {
+  background-color: #f85a2a;
+}
+.music-list article:nth-child(2) div:first-child {
+  background-color: #ff89bb;
+}
+.music-list article:nth-child(3) div:first-child {
+  background-color: #1847e5;
+}
+.music-list article:nth-child(4) div:first-child {
+  background-color: #00c6ad;
+}
+
+.music-list article:nth-child(n) ol:last-child {
+  margin-left: 15px;
+}
+
+.music-list article:nth-child(n) ol:last-child li:first-child {
+  font-size: 150%;
+  font-weight: 800;
+}
+
+.music-list article:nth-child(n) ol:last-child li:last-child {
+  margin-top: 13px;
+  opacity: 1;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-weight: 900;
+  font-size: 103%;
+}

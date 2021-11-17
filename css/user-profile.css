@@ -1,0 +1,39 @@
+.user-profile {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+.user-profile div:first-child {
+  width: 155px;
+  height: 155px;
+  border: solid 3px black;
+  border-radius: 10%;
+  background-color: #ffbd11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.w-6 {
+  width: 60px;
+  height: 60px;
+  color: white;
+}
+
+.user-profile__text {
+  line-height: 300%;
+
+  margin-left: 25px;
+}
+
+.user-profile__text li:first-child {
+  width: min-content;
+  font-size: 300%;
+  font-weight: 800;
+}
+.user-profile__text li:last-child {
+  font-size: 150%;
+  font-weight: 700;
+  margin-top: 15px;
+}

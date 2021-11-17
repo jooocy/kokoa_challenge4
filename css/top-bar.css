@@ -1,0 +1,19 @@
+.top-bar {
+  margin-top: 85px;
+  display: flex;
+  width: 50%;
+  margin-left: 35px;
+}
+
+.top-bar i:first-child {
+  display: flex;
+
+  justify-content: flex-start;
+}
+
+.top-bar span:last-child {
+  font-size: 200%;
+  font-weight: 800;
+  display: flex;
+  margin-left: 50%;
+}

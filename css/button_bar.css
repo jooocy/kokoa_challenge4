@@ -1,0 +1,28 @@
+.button-bar {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button-bar button:nth-child(n) {
+  border: solid 3px black;
+  background-color: white;
+  font-size: 200%;
+  font-weight: 900;
+  border-bottom-width: 7px;
+  height: 70px;
+}
+
+.button-bar button:nth-child(1) {
+  width: 200px;
+  border-radius: 20px;
+}
+
+.button-bar button:nth-child(2) {
+  width: 70px;
+  border-radius: 50%;
+}
+.button-bar button:nth-child(3) {
+  width: 70px;
+  border-radius: 50%;
+}
